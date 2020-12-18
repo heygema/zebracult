@@ -1,0 +1,76 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Serif", Georgia, -apple-system, Serif;
+  background-color: #000000;
+  color: hsla(0, 0%, 100%, 0.8);
+  width: 100%;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+canvas {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.phrase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.phrase {
+  text-align: center;
+  letter-spacing: 0.12rem;
+  color: #FFFFFF;
+}
+
+main {
+  width: 100%;
+  background-color: red;
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  margin-right: 3px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+}
