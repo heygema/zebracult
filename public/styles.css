@@ -13,6 +13,10 @@ body {
   box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+}
+
 canvas {
   width: 100%;
   height: 100vh;
@@ -31,14 +35,33 @@ canvas {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .phrase {
   text-align: center;
   letter-spacing: 0.12rem;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.phrase-container input[type="text"] {
+  font-family: inherit;
+  text-align: center;
+  font-size: 1.5rem;
+  background: transparent;
+  color: #ffffff;
+  border-color: #FFFFFF;
+  border-width: 0px;
+  border-bottom-width: 1px;
+}
+
+.phrase-container input[type="text"]:focus {
+  background: transparent;
+  outline-width: 0;
+}
+
+.phrase-container h3 {
+  position: absolute;
+  margin-top: 300px;
 }
 
 main {

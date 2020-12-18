@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 import { Canvas } from "react-three-fiber";
 import { useRouter } from "next/router";
@@ -13,6 +13,23 @@ function Model({ url }) {
 
 function Main() {
   const [inputState, setInputState] = useState("");
+  const [worthy, setWorthy] = useState(false);
+
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  });
+
+  useEffect(() => {
+    if (inputState.toLowerCase().includes("you only live once")) {
+      setWorthy(true);
+    } else {
+      setWorthy(false);
+    }
+  }, [inputState]);
 
   const currentYear = new Date().getFullYear();
 
@@ -36,6 +53,7 @@ function Main() {
               There's one Zebra, with stripes like a Xylophone.
             </h2>
             <input
+              ref={inputRef}
               type="text"
               value={inputState}
               onChange={(e) => {
@@ -43,8 +61,8 @@ function Main() {
                 setInputState(e.target.value);
               }}
             />
+            {worthy ? <h3>you are worthy. ☑️ </h3> : <h3>&nbsp;</h3>}
           </div>
-
           <footer>
             <span>{`© ${year} #zebracult.`}</span>
             <a href="https://sketchfab.com/crazymanuel" target="blank">
