@@ -73,10 +73,6 @@ function Main({ router }) {
     }
   }, [inputState]);
 
-  const currentYear = new Date().getFullYear();
-
-  const year = currentYear === 2020 ? currentYear : `2020-${currentYear}`;
-
   return (
     <>
       <OrbitControls
@@ -122,13 +118,6 @@ function Main({ router }) {
                 )
             )}
           </div>
-
-          <footer>
-            <span>{`© ${year} #zebracult.`}</span>
-            <a href="https://sketchfab.com/crazymanuel" target="blank">
-              Zebra figure by Manun
-            </a>
-          </footer>
         </div>
       </Html>
       <Stars />
@@ -138,6 +127,10 @@ function Main({ router }) {
 
 function Home() {
   const router = useRouter();
+
+  const currentYear = new Date().getFullYear();
+
+  const year = currentYear === 2020 ? currentYear : `2020-${currentYear}`;
 
   return (
     <>
@@ -165,6 +158,13 @@ function Home() {
       <Canvas>
         <Main router={router} />
       </Canvas>
+
+      <footer>
+        <span>{`© ${year} #zebracult.`}</span>
+        <a href="https://sketchfab.com/crazymanuel" target="blank">
+          Zebra figure by Manun
+        </a>
+      </footer>
     </>
   );
 }
