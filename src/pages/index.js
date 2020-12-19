@@ -2,7 +2,7 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import Head from "next/head";
 import { Canvas, useFrame } from "react-three-fiber";
 import { useRouter } from "next/router";
-import { Html, useGLTF, OrbitControls, Stars, useProgress } from "drei";
+import { Html, useGLTF, OrbitControls, Stars } from "drei";
 import { animated, useTransition } from "react-spring";
 
 const superSlow = 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001;
@@ -24,7 +24,8 @@ const youtubeIds = [
   "X4NA3lWzIKI",
   "Ocl4W0mW5Lw", // eight
   "FkqH78ZpQmk", // seven
-  "NL7oljCKXfU" // LNS #2
+  "NL7oljCKXfU", // LNS #2
+  "EL6XuG9LEsQ" // LNS #1 the OG LNS
 ];
 
 const lastIndex = youtubeIds.length - 1;
