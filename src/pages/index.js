@@ -160,6 +160,16 @@ function Home() {
           content="There's one Zebra with stripes like a Xylophone"
         />
         <meta property="og:image" content="/preview.png" />
+
+        <meta
+          name="twitter:title"
+          content="There's one Zebra with stripes like a Xylophone"
+        />
+        <meta
+          name="twitter:description"
+          content="There's one Zebra with stripes like a Xylophone"
+        />
+        <meta name="twitter:image" content="/preview.png" />
       </Head>
 
       <Canvas>
