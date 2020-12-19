@@ -102,6 +102,8 @@ footer {
 
 footer a {
   font-weight: 800;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
 }
 
 footer a:hover {
