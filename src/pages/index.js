@@ -161,8 +161,19 @@ function Home() {
 
       <footer>
         <span>{`© ${year} #zebracult.`}</span>
-        <a href="https://sketchfab.com/crazymanuel" target="blank">
+        <a
+          href="https://sketchfab.com/crazymanuel"
+          target="blank"
+          rel="noopener"
+        >
           Zebra figure by Manun
+        </a>
+        <a
+          href="https://twitter.com/cosaoriginal"
+          target="blank"
+          rel="noopener"
+        >
+          (@cosaoriginal)
         </a>
       </footer>
     </>

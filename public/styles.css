@@ -110,7 +110,7 @@ footer a:hover {
   color: #E9DAAC;
 }
 
-footer span {
+footer > * {
   margin-right: 3px;
 }
 
