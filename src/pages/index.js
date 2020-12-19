@@ -16,7 +16,14 @@ const youtubeIds = [
   "WgqOczKdTjQ",
   "j1qzTlz2Moc",
   "xnfjQUJ83LY",
-  "MOX3BQSW7_c"
+  "MOX3BQSW7_c",
+  "YNZ0yrIjBEI", // thirtheen
+  "MZSYt6SkMng",
+  "mk4yjnRPqRU",
+  "TUVxsj-Epyg",
+  "X4NA3lWzIKI",
+  "Ocl4W0mW5Lw", // eight
+  "FkqH78ZpQmk" // seven
 ];
 
 const lastIndex = youtubeIds.length - 1;

@@ -98,6 +98,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #101010;
 }
 
 footer a {
@@ -107,11 +108,11 @@ footer a {
 }
 
 footer a:hover {
-  color: #E9DAAC;
+  color: #e9daac;
 }
 
 footer > * {
-  margin-right: 3px;
+  margin-right: 1.5px;
 }
 
 a {
