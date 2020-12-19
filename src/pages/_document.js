@@ -15,7 +15,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
             rel="stylesheet"
           />
-            <link href="/styles.css" rel="stylesheet" />
+          <link href="/styles.css" rel="stylesheet" />
         </Head>
         <body>
           <Main />
