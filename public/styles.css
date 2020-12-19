@@ -100,6 +100,14 @@ footer {
   align-items: center;
 }
 
+footer a {
+  font-weight: 800;
+}
+
+footer a:hover {
+  color: #E9DAAC;
+}
+
 footer span {
   margin-right: 3px;
 }
