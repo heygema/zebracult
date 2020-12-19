@@ -23,7 +23,8 @@ const youtubeIds = [
   "TUVxsj-Epyg",
   "X4NA3lWzIKI",
   "Ocl4W0mW5Lw", // eight
-  "FkqH78ZpQmk" // seven
+  "FkqH78ZpQmk", // seven
+  "NL7oljCKXfU" // LNS #2
 ];
 
 const lastIndex = youtubeIds.length - 1;
