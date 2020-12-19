@@ -144,6 +144,22 @@ function Home() {
       <Head>
         <title>Zebra Cult</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <meta property="og:url" content="https://zebracult.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="There's one Zebra with stripes like a Xylophone"
+        />
+        <meta
+          name="twitter:card"
+          content="There's one Zebra with stripes like a Xylophone"
+        />
+        <meta
+          property="og:description"
+          content="There's one Zebra with stripes like a Xylophone"
+        />
+        <meta property="og:image" content="/preview.png" />
       </Head>
 
       <Canvas>
