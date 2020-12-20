@@ -26,7 +26,8 @@ const youtubeIds = [
   "FkqH78ZpQmk", // seven
   "NL7oljCKXfU", // LNS #2
   "EL6XuG9LEsQ", // LNS #1 the OG LNS
-  "-D2OeIEa3cw" // Shui (Live Version)
+  "-D2OeIEa3cw", // Shui (Live Version)
+  "u46cHH2lqs4" // Es Lilin
 ];
 
 const lastIndex = youtubeIds.length - 1;
