@@ -203,6 +203,13 @@ function Home() {
           >
             (@cosaoriginal)
           </a>
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/"
+            target="blank"
+            rel="noopener"
+          >
+            -License CC 4.0
+          </a>
         </span>
       </footer>
     </>
