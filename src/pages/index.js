@@ -142,6 +142,13 @@ function Home() {
 
   const year = currentYear === 2020 ? currentYear : `2020-${currentYear}`;
 
+  console.log(`
+      author: Gema.
+      twitter: @heygema
+      ---
+      Looking for answer?
+      The Answer is:
+      You only live once`);
   return (
     <>
       <Head>
