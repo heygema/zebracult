@@ -122,4 +122,10 @@ a {
 }
 
 @media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+  footer > * {
+    margin-right: 0px;
+  }
 }

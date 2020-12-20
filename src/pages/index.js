@@ -181,20 +181,22 @@ function Home() {
 
       <footer>
         <span>{`© ${year} #zebracult.`}</span>
-        <a
-          href="https://sketchfab.com/crazymanuel"
-          target="blank"
-          rel="noopener"
-        >
-          Zebra figure by Manun
-        </a>
-        <a
-          href="https://twitter.com/cosaoriginal"
-          target="blank"
-          rel="noopener"
-        >
-          (@cosaoriginal)
-        </a>
+        <span>
+          <a
+            href="https://sketchfab.com/3d-models/3dinktober2019-pattern-be529d1484054f9cb02373c023a58f23"
+            target="blank"
+            rel="noopener"
+          >
+            Zebra figure by Manun
+          </a>
+          <a
+            href="https://twitter.com/cosaoriginal"
+            target="blank"
+            rel="noopener"
+          >
+            (@cosaoriginal)
+          </a>
+        </span>
       </footer>
     </>
   );
