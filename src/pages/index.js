@@ -208,7 +208,7 @@ function Home() {
             target="blank"
             rel="noopener"
           >
-            -License CC 4.0
+            -CC 4.0
           </a>
         </span>
       </footer>
