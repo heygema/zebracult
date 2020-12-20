@@ -40,6 +40,7 @@ canvas {
 
 .phrase {
   text-align: center;
+  text-shadow: 0 0 10px #fff700;
   letter-spacing: 0.12rem;
   color: #ffffff;
 }
@@ -47,6 +48,7 @@ canvas {
 .phrase-container input[type="text"] {
   font-family: inherit;
   text-align: center;
+  text-shadow: 0 0 10px #fff700;
   font-size: 1.5rem;
   background: transparent;
   color: #ffffff;
