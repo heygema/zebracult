@@ -27,7 +27,8 @@ const youtubeIds = [
   "NL7oljCKXfU", // LNS #2
   "EL6XuG9LEsQ", // LNS #1 the OG LNS
   "-D2OeIEa3cw", // Shui (Live Version)
-  "u46cHH2lqs4" // Es Lilin
+  "u46cHH2lqs4", // Es Lilin
+  "p7BY93pWL7c" // Autumn Stories - 2. Yellow, Orange & Red
 ];
 
 const lastIndex = youtubeIds.length - 1;
