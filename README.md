@@ -1,5 +1,5 @@
 # #zebracult
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+![cc-by-shield](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 Source code for [zebracult](https://zebracult.vercel.app).
 The rite of passage of the [zebracult](https://zebracult.vercel.app)
