@@ -1,9 +1,9 @@
 import { Suspense, useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
 import Head from "next/head";
 import { Canvas, useFrame } from "react-three-fiber";
 import { useRouter } from "next/router";
 import { Html, useGLTF, OrbitControls, Stars } from "drei";
-import { animated, useTransition } from "react-spring";
 
 const superSlow = 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001;
 
@@ -49,18 +49,6 @@ function Main({ router }) {
     setX(x - 0.003);
   });
 
-  const transitions = useTransition(showText, null, {
-    from: { opacity: 0 },
-    enter: { opacity: 1 },
-    leave: { opacity: 0 }
-  });
-
-  const worthyTransition = useTransition(worthy, null, {
-    from: { position: "absolute", opacity: 0 },
-    enter: { opacity: 1 },
-    leave: { opacity: 0 }
-  });
-
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -103,15 +91,18 @@ function Main({ router }) {
 
       <Html fullscreen>
         <div className="container">
-          <div className="phrase-container">
-            {transitions.map(
-              ({ item, key, props }) =>
-                item && (
-                  <animated.h2 key={key} props={props} className="phrase">
-                    There's one Zebra, with stripes like a Xylophone.
-                  </animated.h2>
-                )
-            )}
+          <motion.div
+            variants={{
+              hidden: { opacity: 0 },
+              visible: { opacity: 1 }
+            }}
+            initial="hidden"
+            animate="visible"
+            className="phrase-container"
+          >
+            <h2 className="phrase">
+              There's one Zebra, with stripes like a Xylophone.
+            </h2>
             <input
               ref={inputRef}
               type="text"
@@ -121,15 +112,19 @@ function Main({ router }) {
                 setInputState(e.target.value);
               }}
             />
-            {worthyTransition.map(
-              ({ item, key, props }) =>
-                item && (
-                  <animated.h3 key={key} props={props}>
-                    you are worthy. ☑️{" "}
-                  </animated.h3>
-                )
+            {worthy && (
+              <motion.h3
+                variants={{
+                  hidden: { opacity: 0 },
+                  visible: { opacity: 1 }
+                }}
+                initial="hidden"
+                animate="visible"
+              >
+                you are worthy. ☑️{" "}
+              </motion.h3>
             )}
-          </div>
+          </motion.div>
         </div>
       </Html>
       <Stars />
