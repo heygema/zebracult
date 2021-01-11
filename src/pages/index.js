@@ -152,18 +152,18 @@ function Home() {
         <title>Zebra Cult</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@LateZebra" />
         <meta name="twitter:creator" content="@heygema" />
-        <meta
-          name="twitter:title"
-          content="There's one Zebra with stripes like a Xylophone"
-        />
+        <meta name="twitter:title" content="Zebracult" />
         <meta
           name="twitter:description"
           content="There's one Zebra with stripes like a Xylophone"
         />
-        <meta name="twitter:image" content="/preview.png" />
+        <meta
+          name="twitter:image"
+          content="https://zebracult.vercel.app/preview.png"
+        />
 
         <meta property="og:url" content="https://zebracult.vercel.app" />
         <meta property="og:type" content="website" />
