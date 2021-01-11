@@ -158,7 +158,7 @@ function Home() {
         <meta name="twitter:title" content="Zebracult" />
         <meta
           name="twitter:description"
-          content="There's one Zebra with stripes like a Xylophone"
+          content="There's one Zebra with stripes like a Xylophone. Zebra figure by @cosaoriginal"
         />
         <meta
           name="twitter:image"
