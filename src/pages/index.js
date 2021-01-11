@@ -152,7 +152,7 @@ function Home() {
         <title>Zebra Cult</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LateZebra" />
         <meta name="twitter:creator" content="@heygema" />
         <meta name="twitter:title" content="Zebracult" />
