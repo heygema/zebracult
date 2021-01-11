@@ -152,24 +152,9 @@ function Home() {
         <title>Zebra Cult</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <meta property="og:url" content="https://zebracult.vercel.app" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="There's one Zebra with stripes like a Xylophone"
-        />
-        <meta
-          name="twitter:card"
-          content="There's one Zebra with stripes like a Xylophone"
-        />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LateZebra" />
         <meta name="twitter:creator" content="@heygema" />
-        <meta
-          property="og:description"
-          content="There's one Zebra with stripes like a Xylophone"
-        />
-        <meta property="og:image" content="/preview.png" />
-
         <meta
           name="twitter:title"
           content="There's one Zebra with stripes like a Xylophone"
@@ -179,6 +164,18 @@ function Home() {
           content="There's one Zebra with stripes like a Xylophone"
         />
         <meta name="twitter:image" content="/preview.png" />
+
+        <meta property="og:url" content="https://zebracult.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="There's one Zebra with stripes like a Xylophone"
+        />
+        <meta
+          property="og:description"
+          content="There's one Zebra with stripes like a Xylophone"
+        />
+        <meta property="og:image" content="/preview.png" />
       </Head>
 
       <Canvas>
