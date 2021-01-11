@@ -162,6 +162,8 @@ function Home() {
           name="twitter:card"
           content="There's one Zebra with stripes like a Xylophone"
         />
+        <meta name="twitter:site" content="@LateZebra" />
+        <meta name="twitter:creator" content="@heygema" />
         <meta
           property="og:description"
           content="There's one Zebra with stripes like a Xylophone"
